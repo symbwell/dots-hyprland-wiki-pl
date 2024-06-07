@@ -55,6 +55,10 @@ export default defineConfig({
           label: '简体中文', //Simplified Chinese
           lang: 'zh-CN',
         },
+        'pl': {
+          label: 'Polski',
+          lang: 'pl'
+        }
       },
       sidebar: [
         {
@@ -62,6 +66,7 @@ export default defineConfig({
           translations: {
             'vi': 'Chung',
             'zh-CN': '通用',
+            'pl' : 'Ogólne'
           },
           autogenerate: { directory: 'general' },
         },
@@ -78,6 +83,7 @@ export default defineConfig({
           translations: {
             'vi': 'Kho lưu trữ (ko đc duy trì)',
             'zh-CN': '存档（不再维护）',
+            'pl' : 'Archiwum (niewspierane)'
           },
 					autogenerate: { directory: 'archives' },
 				},
@@ -88,6 +94,7 @@ export default defineConfig({
           translations: {
             'vi': 'Ghi chú cho dev',
             'zh-CN': '开发者笔记',
+            'pl' : 'Notatki dla programistów'
           },
 					autogenerate: { directory: 'dev' },
 				},
@@ -97,6 +104,7 @@ export default defineConfig({
           badge: { text: 'Help wanted', variant: 'note' },
           translations: {
             'zh-CN': '翻译此文档',
+            'pl' : 'Przetłumacz wiki'
           },
           link: '/dev/doc-site-contrib',
 				},
